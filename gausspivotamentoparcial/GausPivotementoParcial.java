@@ -13,5 +13,7 @@ public class GausPivotementoParcial {
 
         pivo.criaMatriz();
 
+        teclado.close();
+
     }
 }

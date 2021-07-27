@@ -1,9 +1,8 @@
 package metododegauss;
-import java.util.Scanner;
 
 public class MatrizDeGauss {
 
-    public static Scanner teclado = new Scanner(System.in);
+    
 	int tamanho;
 	
 
@@ -17,7 +16,7 @@ public class MatrizDeGauss {
 		for (int linha = 0; linha < this.tamanho; linha++) { 
 			for (int coluna = 0; coluna <= tamanho; coluna++) {
 				System.out.print("Digite o Elemento da posição [" + (linha+1) + ", " + (coluna+1) + "]: ");
-				matrizGauss[linha][coluna] = teclado.nextDouble();
+				matrizGauss[linha][coluna] = MetodoDeGauss.teclado.nextDouble();
 			}
 		}
 
